@@ -33,7 +33,7 @@ class Stubborn_DCMotor {
 		void setSpeed(uint8_t velocidade);
 		void run(uint8_t sentido);
 	private:
-		uint8_t _pinoA, _pino_B, _pwm_pino;
+		uint8_t _pino_A, _pino_B, _pwm_pino;
 		uint8_t _velocidade;
 		uint8_t _sentido;
 };
